@@ -1,0 +1,7 @@
+auto {{ iface }}
+iface {{ iface }} inet static
+      address {{ address }}
+      netmask {{ netmask }}
+      bridge_fd 0
+      bridge_maxwait 0
+      bridge_ports none

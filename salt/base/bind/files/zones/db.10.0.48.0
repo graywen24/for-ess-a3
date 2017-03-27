@@ -1,0 +1,89 @@
+;
+; BIND data file for the reverse 1nc domain
+;
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      4		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns-a1.vstage.1nc.
+@	IN	NS	dns-a2.vstage.1nc.
+
+202             IN   PTR    1net.vstage.1nc.
+203             IN   PTR    reseller.vstage.1nc.
+
+10             IN   PTR    compute-a1.vstage.1nc.
+11             IN   PTR    compute-a2.vstage.1nc.
+12             IN   PTR    ctl-a1.vstage.1nc.
+13             IN   PTR    ctl-a2.vstage.1nc.
+14             IN   PTR    db-a1.vstage.1nc.
+15             IN   PTR    db-a2.vstage.1nc.
+16             IN   PTR    db-a3.vstage.1nc.
+17             IN   PTR    storage-a1.vstage.1nc.
+18             IN   PTR    storage-a2.vstage.1nc.
+19             IN   PTR    storage-a3.vstage.1nc.
+20             IN   PTR    neutron-a1.vstage.1nc.
+21             IN   PTR    neutron-a2.vstage.1nc.
+22             IN   PTR    compute-a3.vstage.1nc.
+23             IN   PTR    compute-a4.vstage.1nc.
+
+100             IN   PTR    haproxy-a1.vstage.1nc.
+101             IN   PTR    haproxy-a2.vstage.1nc.
+102             IN   PTR    cdos-a1.vstage.1nc.
+103             IN   PTR    cdos-a2.vstage.1nc.
+104             IN   PTR    horizon-a1.vstage.1nc.
+105             IN   PTR    horizon-a2.vstage.1nc.
+106             IN   PTR    glance-a1.vstage.1nc.
+107             IN   PTR    glance-a2.vstage.1nc.
+108             IN   PTR    cinder-a1.vstage.1nc.
+109             IN   PTR    cinder-a2.vstage.1nc.
+110             IN   PTR    nova-a1.vstage.1nc.
+111             IN   PTR    nova-a2.vstage.1nc.
+112             IN   PTR    keystone-a1.vstage.1nc.
+113             IN   PTR    keystone-a2.vstage.1nc.
+114             IN   PTR    cneutron-a1.vstage.1nc.
+115             IN   PTR    cneutron-a2.vstage.1nc.
+116             IN   PTR    ceilometer-a1.vstage.1nc.
+117             IN   PTR    ceilometer-a2.vstage.1nc.
+118             IN   PTR    cmd-a1.vstage.1nc.
+119             IN   PTR    cmd-a2.vstage.1nc.
+120             IN   PTR    bootstrap-a1.vstage.1nc.
+121             IN   PTR    bootstrap-a2.vstage.1nc.
+139             IN   PTR    bootstrap-a3.vstage.1nc.
+122             IN   PTR    percona-a1.vstage.1nc.
+123             IN   PTR    percona-a2.vstage.1nc.
+124             IN   PTR    percona-a3.vstage.1nc.
+125             IN   PTR    cdosdb-a1.vstage.1nc.
+126             IN   PTR    cdosdb-a2.vstage.1nc.
+127             IN   PTR    cdosdb-a3.vstage.1nc.
+128             IN   PTR    rabbitmq-a1.vstage.1nc.
+129             IN   PTR    rabbitmq-a2.vstage.1nc.
+130             IN   PTR    mongodb-a1.vstage.1nc.
+131             IN   PTR    mongodb-a2.vstage.1nc.
+132             IN   PTR    mongodb-a3.vstage.1nc.
+133             IN   PTR    elasticsearch-a1.vstage.1nc.
+134             IN   PTR    elasticsearch-a2.vstage.1nc.
+135             IN   PTR    elasticsearch-a3.vstage.1nc.
+136             IN   PTR    logstash-a1.vstage.1nc.
+137             IN   PTR    logstash-a2.vstage.1nc.
+138             IN   PTR    logstash-a3.vstage.1nc.
+140             IN   PTR    cdos-t1.vstage.1nc.
+141             IN   PTR    cdosdb-t1.vstage.1nc.
+150             IN   PTR    appcara-a1.vstage.1nc.
+151             IN   PTR    appcara-a2.vstage.1nc.
+152             IN   PTR    appcara-b1.vstage.1nc.
+153             IN   PTR    appcara-b2.vstage.1nc.
+154             IN   PTR    appcaradb-a1.vstage.1nc.
+155             IN   PTR    appcaradb-a2.vstage.1nc.
+156             IN   PTR    appcaradb-a3.vstage.1nc.
+157             IN   PTR    appcaradep-a1.vstage.1nc.
+158             IN   PTR    appcaradb-b1.vstage.1nc.
+159             IN   PTR    appcaradb-b2.vstage.1nc.
+160             IN   PTR    appcaradb-b3.vstage.1nc.
+161             IN   PTR    appcararedis-a1.vstage.1nc.
+162             IN   PTR    appcararedis-a2.vstage.1nc.
+163             IN   PTR    appcararedis-b1.vstage.1nc.
+164             IN   PTR    appcararedis-b2.vstage.1nc.

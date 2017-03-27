@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -x
+
+. /root/bs/lib/pyweb
+
+case $1 in
+  start) wsstart ;;
+  stop) wsstop ;;
+  kill) wskill ;;
+  *) echo "Usage $0 [start] [stop] [kill]"
+esac
+

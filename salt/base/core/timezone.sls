@@ -1,0 +1,2 @@
+Asia/Singapore:
+  timezone.system

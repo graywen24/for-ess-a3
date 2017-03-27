@@ -1,0 +1,5 @@
+# managed by salt - local changes are useless and will be oweritten without hesitation :)
+
+deb http://repo.cde.1nc/cde/ubuntu trusty main restricted universe multiverse
+deb http://repo.cde.1nc/cde/ubuntu trusty-updates main restricted universe multiverse
+deb http://repo.cde.1nc/cde/ubuntu trusty-security main restricted universe multiverse

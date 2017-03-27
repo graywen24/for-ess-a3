@@ -1,0 +1,391 @@
+containers:
+  haproxy-a1:
+    target: ctl-a1
+    ip4: 100
+    network:
+      manage: {}
+      ostack: {}
+      nhb: {}
+    roles:
+      - haproxy
+  haproxy-a2:
+    target: ctl-a2
+    ip4: 101
+    network:
+      manage: {}
+      ostack: {}
+      nhb: {}
+    roles:
+      - haproxy
+  cdos-t1:
+    target: node-a1
+    ip4: 140
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - cdostmp
+      - cdosapp
+  cdos-a1:
+    target: ctl-a1
+    ip4: 102
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - cdos
+      - cdosapp
+  cdos-a2:
+    target: ctl-a2
+    ip4: 103
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - cdos
+      - cdosapp
+  horizon-a1:
+    target: ctl-a1
+    ip4: 104
+    network:
+      manage: {}
+      ostack: {}
+    packages:
+      - ssl-cert
+    roles:
+      - ostack
+      - horizon
+  horizon-a2:
+    target: ctl-a2
+    ip4: 105
+    network:
+      manage: {}
+      ostack: {}
+    packages:
+      - ssl-cert
+    roles:
+      - ostack
+      - horizon
+  glance-a1:
+    target: ctl-a1
+    ip4: 106
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - glance
+  glance-a2:
+    target: ctl-a2
+    ip4: 107
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - glance
+  cinder-a1:
+    target: ctl-a1
+    ip4: 108
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - cinder
+  cinder-a2:
+    target: ctl-a2
+    ip4: 109
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - cinder
+  nova-a1:
+    target: ctl-a1
+    ip4: 110
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - nova
+  nova-a2:
+    target: ctl-a2
+    ip4: 111
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - nova
+  keystone-a1:
+    target: ctl-a1
+    ip4: 112
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - keystone
+  keystone-a2:
+    target: ctl-a2
+    ip4: 113
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - keystone
+  cneutron-a1:
+    target: ctl-a1
+    ip4: 114
+    defaultconf: ubuntu.lowsec.conf
+    network:
+      manage: {}
+      ostack: {}
+      nhb: {}
+    packages:
+      - iptables
+    roles:
+      - ostack
+      - neutron
+  cneutron-a2:
+    target: ctl-a2
+    ip4: 115
+    defaultconf: ubuntu.lowsec.conf
+    network:
+      manage: {}
+      ostack: {}
+      nhb: {}
+    packages:
+      - iptables
+    roles:
+      - ostack
+      - neutron
+  ceilometer-a1:
+    target: ctl-a1
+    ip4: 116
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - ceilometer
+  ceilometer-a2:
+    target: ctl-a2
+    ip4: 117
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - ceilometer
+  cmd-a1:
+    target: ctl-a1
+    ip4: 118
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - cmd
+      - juju
+      - ostack
+  cmd-a2:
+    target: ctl-a2
+    ip4: 119
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - cmd
+      - juju
+      - ostack
+      - other
+  bootstrap-a1:
+    target: db-a1
+    ip4: 120
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - juju
+      - bootstrap
+      - ostack
+  bootstrap-a2:
+    target: db-a2
+    ip4: 121
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - juju
+      - bootstrap
+      - ostack
+      - other
+  bootstrap-a3:
+    target: db-a3
+    ip4: 139
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - juju
+      - bootstrap
+      - ostack
+  percona-a1:
+    target: db-a1
+    ip4: 122
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+  percona-a2:
+    target: db-a2
+    ip4: 123
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+      - other
+  percona-a3:
+    target: db-a3
+    ip4: 124
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+  cdosdb-t1:
+    target: node-a1
+    ip4: 141
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+      - cdostmp
+  cdosdb-a1:
+    target: db-a1
+    ip4: 125
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+      - cdos
+  cdosdb-a2:
+    target: db-a2
+    ip4: 126
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+      - cdos
+  cdosdb-a3:
+    target: db-a3
+    ip4: 127
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+      - cdos
+  rabbitmq-a1:
+    target: db-a1
+    ip4: 128
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - messageq
+  rabbitmq-a2:
+    target: db-a2
+    ip4: 129
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - messageq
+  mongodb-a1:
+    target: db-a1
+    ip4: 130
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+  mongodb-a2:
+    target: db-a2
+    ip4: 131
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+  mongodb-a3:
+    target: db-a3
+    ip4: 132
+    network:
+      manage: {}
+      ostack: {}
+    roles:
+      - ostack
+      - database
+  elasticsearch-a1:
+    target: db-a1
+    ip4: 133
+    network:
+      manage: {}
+    roles:
+      - elastic
+  elasticsearch-a2:
+    target: db-a2
+    ip4: 134
+    network:
+      manage: {}
+    roles:
+      - elastic
+  elasticsearch-a3:
+    target: db-a3
+    ip4: 135
+    network:
+      manage: {}
+    roles:
+      - elastic
+  logstash-a1:
+    target: db-a1
+    ip4: 136
+    network:
+      manage: {}
+    roles:
+      - elastic
+  logstash-a2:
+    target: db-a2
+    ip4: 137
+    network:
+      manage: {}
+    roles:
+      - elastic
+  logstash-a3:
+    target: db-a3
+    ip4: 138
+    network:
+      manage: {}
+    roles:
+      - elastic

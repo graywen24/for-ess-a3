@@ -1,0 +1,74 @@
+;
+; BIND data file for the reverse 1nc domain
+;
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      4		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	   IN NS dns-a1.ostack.nhb.1nc.
+@	   IN NS dns-a2.ostack.nhb.1nc.
+
+10             IN   PTR    compute-a1.ostack.nhb.1nc.
+11             IN   PTR    compute-a2.ostack.nhb.1nc.
+12             IN   PTR    ctl-a1.ostack.nhb.1nc.
+13             IN   PTR    ctl-a2.ostack.nhb.1nc.
+14             IN   PTR    db-a1.ostack.nhb.1nc.
+15             IN   PTR    db-a2.ostack.nhb.1nc.
+16             IN   PTR    db-a3.ostack.nhb.1nc.
+17             IN   PTR    storage-a1.ostack.nhb.1nc.
+18             IN   PTR    storage-a2.ostack.nhb.1nc.
+19             IN   PTR    storage-a3.ostack.nhb.1nc.
+20             IN   PTR    neutron-a1.ostack.nhb.1nc.
+21             IN   PTR    neutron-a2.ostack.nhb.1nc.
+22             IN   PTR    compute-a3.ostack.nhb.1nc.
+23             IN   PTR    compute-a4.ostack.nhb.1nc.
+40             IN   PTR    vneutron-a1.ostack.nhb.1nc.
+41             IN   PTR    vneutron-a2.ostack.nhb.1nc.
+
+
+100             IN   PTR    haproxy-a1.ostack.nhb.1nc.
+101             IN   PTR    haproxy-a2.ostack.nhb.1nc.
+102             IN   PTR    cdos-a1.ostack.nhb.1nc.
+103             IN   PTR    cdos-a2.ostack.nhb.1nc.
+104             IN   PTR    horizon-a1.ostack.nhb.1nc.
+105             IN   PTR    horizon-a2.ostack.nhb.1nc.
+106             IN   PTR    glance-a1.ostack.nhb.1nc.
+107             IN   PTR    glance-a2.ostack.nhb.1nc.
+108             IN   PTR    cinder-a1.ostack.nhb.1nc.
+109             IN   PTR    cinder-a2.ostack.nhb.1nc.
+110             IN   PTR    nova-a1.ostack.nhb.1nc.
+111             IN   PTR    nova-a2.ostack.nhb.1nc.
+112             IN   PTR    keystone-a1.ostack.nhb.1nc.
+113             IN   PTR    keystone-a2.ostack.nhb.1nc.
+114             IN   PTR    cneutron-a1.ostack.nhb.1nc.
+115             IN   PTR    cneutron-a2.ostack.nhb.1nc.
+116             IN   PTR    ceilometer-a1.ostack.nhb.1nc.
+117             IN   PTR    ceilometer-a2.ostack.nhb.1nc.
+118             IN   PTR    cmd-a1.ostack.nhb.1nc.
+119             IN   PTR    cmd-a2.ostack.nhb.1nc.
+120             IN   PTR    bootstrap-a1.ostack.nhb.1nc.
+121             IN   PTR    bootstrap-a2.ostack.nhb.1nc.
+139             IN   PTR    bootstrap-a3.ostack.nhb.1nc.
+122             IN   PTR    percona-a1.ostack.nhb.1nc.
+123             IN   PTR    percona-a2.ostack.nhb.1nc.
+124             IN   PTR    percona-a3.ostack.nhb.1nc.
+125             IN   PTR    cdosdb-a1.ostack.nhb.1nc.
+126             IN   PTR    cdosdb-a2.ostack.nhb.1nc.
+127             IN   PTR    cdosdb-a3.ostack.nhb.1nc.
+128             IN   PTR    rabbitmq-a1.ostack.nhb.1nc.
+129             IN   PTR    rabbitmq-a2.ostack.nhb.1nc.
+130             IN   PTR    mongodb-a1.ostack.nhb.1nc.
+131             IN   PTR    mongodb-a2.ostack.nhb.1nc.
+132             IN   PTR    mongodb-a3.ostack.nhb.1nc.
+133             IN   PTR    elasticsearch-a1.ostack.nhb.1nc.
+134             IN   PTR    elasticsearch-a2.ostack.nhb.1nc.
+135             IN   PTR    elasticsearch-a3.ostack.nhb.1nc.
+136             IN   PTR    logstash-a1.ostack.nhb.1nc.
+137             IN   PTR    logstash-a2.ostack.nhb.1nc.
+138             IN   PTR    logstash-a3.ostack.nhb.1nc.
+140             IN   PTR    cdos-t1.ostack.nhb.1nc.
+141             IN   PTR    cdosdb-t1.ostack.nhb.1nc.

@@ -1,0 +1,8 @@
+# extra bind mounts coming from the salt pillar settings
+# referenced by include from main config
+# this file is managed by salt - do not edit locally
+
+{% if mount is defined %}
+{%- for key, dirset in mount.iteritems() -%}
+{{ dirset.local }} {{ dirset.remote }} none bind 0 0
+{% endfor -%}{% endif -%}

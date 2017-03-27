@@ -1,0 +1,23 @@
+
+WEBSERVER=0
+
+wsstart() {
+
+  if [ ! -d /tmp/web ]; then
+    mkdir -p /tmp/web
+    ln -s /var/storage/ess-a1.cde.1nc/repos/aptly/public/cde /tmp/web/cde
+    ln -s /srv/salt/base/container/files/bootstrap /tmp/web/salt
+  fi
+  rm -f /tmp/web/server.log
+  cd /tmp/web; python -m SimpleHTTPServer 80 2>/tmp/web/server.log &
+  WEBSERVER=$!
+  sleep 1
+}
+
+wsstop() {
+
+  if [ $WEBSERVER -gt 0 ]; then
+    kill $WEBSERVER
+  fi
+
+}

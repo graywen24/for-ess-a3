@@ -1,0 +1,31 @@
+# {{ pillar.defaults.hint }}
+
+127.0.0.1   localhost
+{% if 'ostack' in grains.roles -%}
+127.0.1.1  {{ grains.host }}.{{ pillar.defaults.envo }} {{ grains.host }}
+{% else -%}
+{{ grains['fqdn_ip4'][0] }}  {{ grains.fqdn }} {{ grains.host }}
+{% endif %}
+
+# important infrastructure resources
+10.1.48.101 repo.cde.1nc repo
+10.1.48.102 salt.cde.1nc salt
+
+{% if 'cdosapp' in grains.roles -%}
+
+127.0.0.1 galileo.cloud
+127.0.0.1 helionode.cloud
+127.0.0.1 exosphere.cloud
+127.0.0.1 stratosphere.cloud
+127.0.0.1 heliotime.cloud
+{{ pillar.cdos.mysql.hostip }} sphereds.cloud
+127.0.0.1 session.cloud
+
+{% endif %}
+
+{% if 'container' in grains.roles -%}
+{{ salt['pillar.get']('containers:'+grains.nodename+':hosts', '') }}
+{% else %}
+{{ salt['pillar.get']('hosts:'+grains.nodename+':hosts', '') }}
+{% endif %}
+

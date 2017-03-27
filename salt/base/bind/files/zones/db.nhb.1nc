@@ -1,0 +1,74 @@
+;
+; BIND data file for the 1nc domain
+;
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	   IN NS dns-a1.cde.1nc.
+@	   IN NS dns-a2.cde.1nc.
+
+compute-a1            IN     A    10.2.48.10
+compute-a2            IN     A    10.2.48.11
+ctl-a1                IN     A    10.2.48.12
+ctl-a2                IN     A    10.2.48.13
+db-a1                 IN     A    10.2.48.14
+db-a2                 IN     A    10.2.48.15
+db-a3                 IN     A    10.2.48.16
+storage-a1            IN     A    10.2.48.17
+storage-a2            IN     A    10.2.48.18
+storage-a3            IN     A    10.2.48.19
+neutron-a1            IN     A    10.2.48.20
+neutron-a2            IN     A    10.2.48.21
+compute-a3            IN     A    10.2.48.22
+compute-a4            IN     A    10.2.48.23
+
+vneutron-a1           IN     A    10.2.48.40
+vneutron-a2           IN     A    10.2.48.41
+
+haproxy-a1               IN     A    10.2.48.100
+haproxy-a2               IN     A    10.2.48.101
+cdos-a1                  IN     A    10.2.48.102
+cdos-a2                  IN     A    10.2.48.103
+horizon-a1               IN     A    10.2.48.104
+horizon-a2               IN     A    10.2.48.105
+glance-a1                IN     A    10.2.48.106
+glance-a2                IN     A    10.2.48.107
+cinder-a1                IN     A    10.2.48.108
+cinder-a2                IN     A    10.2.48.109
+nova-a1                  IN     A    10.2.48.110
+nova-a2                  IN     A    10.2.48.111
+keystone-a1              IN     A    10.2.48.112
+keystone-a2              IN     A    10.2.48.113
+cneutron-a1              IN     A    10.2.48.114
+cneutron-a2              IN     A    10.2.48.115
+ceilometer-a1            IN     A    10.2.48.116
+ceilometer-a2            IN     A    10.2.48.117
+cmd-a1                   IN     A    10.2.48.118
+cmd-a2                   IN     A    10.2.48.119
+bootstrap-a1             IN     A    10.2.48.120
+bootstrap-a2             IN     A    10.2.48.121
+bootstrap-a3             IN     A    10.2.48.139
+percona-a1               IN     A    10.2.48.122
+percona-a2               IN     A    10.2.48.123
+percona-a3               IN     A    10.2.48.124
+cdosdb-a1                IN     A    10.2.48.125
+cdosdb-a2                IN     A    10.2.48.126
+cdosdb-a3                IN     A    10.2.48.127
+rabbitmq-a1              IN     A    10.2.48.128
+rabbitmq-a2              IN     A    10.2.48.129
+mongodb-a1               IN     A    10.2.48.130
+mongodb-a2               IN     A    10.2.48.131
+mongodb-a3               IN     A    10.2.48.132
+elasticsearch-a1         IN     A    10.2.48.133
+elasticsearch-a2         IN     A    10.2.48.134
+elasticsearch-a3         IN     A    10.2.48.135
+logstash-a1              IN     A    10.2.48.136
+logstash-a2              IN     A    10.2.48.137
+logstash-a3              IN     A    10.2.48.138
+cdos-t1           IN   A   10.2.48.140
+cdosdb-t1         IN   A   10.2.48.141
