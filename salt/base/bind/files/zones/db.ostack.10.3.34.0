@@ -1,0 +1,17 @@
+;
+; BIND data file for the reverse 1nc domain
+;
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      4		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	   IN NS dns-a1.cde.1nc.
+@	   IN NS dns-a2.cde.1nc.
+
+14            IN   PTR    compute-b1.ostack.wcc.1nc.
+13             IN   PTR    compute-b2.ostack.wcc.1nc.
+

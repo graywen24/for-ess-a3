@@ -1,0 +1,27 @@
+;
+; BIND data file for the reverse 1nc domain
+;
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns-a1.cde.1nc.
+@	IN	NS	dns-a2.cde.1nc.
+
+10                      IN   PTR     ess-a3.cde.1nc.
+11                      IN   PTR     ess-a4.cde.1nc.
+100                     IN   PTR     maas-a1.cde.1nc.
+101                     IN   PTR     repo-a1.cde.1nc.
+102                     IN   PTR     saltmaster-a1.cde.1nc.
+103                     IN   PTR     micros-a1.cde.1nc.
+104                     IN   PTR     micros-a2.cde.1nc.
+105                     IN   PTR     lam-a1.cde.1nc.
+106                     IN   PTR     kibana-a1.cde.1nc.
+107                     IN   PTR     comm-a1.cde.1nc.
+108                     IN   PTR     ldap-a1.cde.1nc.
+109                     IN   PTR     revproxy-a1.cde.1nc.
+111                     IN   PTR     ldap-a2.cde.1nc.

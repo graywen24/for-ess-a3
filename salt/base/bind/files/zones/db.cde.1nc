@@ -12,26 +12,25 @@ $TTL	604800
 @	   IN NS dns-a1.cde.1nc.
 @	   IN NS dns-a2.cde.1nc.
 
-dns-a1                       IN   A     10.1.48.103
-dns-a2                       IN   A     10.1.48.104
+dns-a1                       IN   A     10.3.50.103
+dns-a2                       IN   A     10.3.50.104
 
-ess-a1                   IN     A    10.1.48.10
-ess-a2                   IN     A    10.1.48.11
-ess-a3                   IN     A    10.1.48.12
-ess-a4                   IN     A    10.1.48.13
-maas-a1                  IN     A    10.1.48.100
-repo-a1                  IN     A    10.1.48.101
+
+ess-a3                   IN     A    10.3.50.10
+ess-a4                   IN     A    10.3.50.11
+maas-a1                  IN     A    10.3.50.100
+repo-a1                  IN     A    10.3.50.101
 repo                     IN     CNAME repo-a1
-saltmaster-a1            IN     A    10.1.48.102
+saltmaster-a1            IN     A    10.3.50.102
 salt                     IN     CNAME saltmaster-a1
-micros-a1                IN     A    10.1.48.103
-micros-a2                IN     A    10.1.48.104
-lam-a1                   IN     A    10.1.48.105
-kibana-a1                IN     A    10.1.48.106
-comm-a1                  IN     A    10.1.48.107
+micros-a1                IN     A    10.3.50.103
+micros-a2                IN     A    10.3.50.104
+lam-a1                   IN     A    10.3.50.105
+kibana-a1                IN     A    10.3.50.106
+comm-a1                  IN     A    10.3.50.107
 sms                      IN     CNAME comm-a1
 smtp                     IN     CNAME comm-a1
 defa                     IN     CNAME comm-a1
-ldap-a1                  IN     A    10.1.48.108
-revproxy-a1              IN     A    10.1.48.109
-ldap-a2                  IN     A    10.1.48.111
+ldap-a1                  IN     A    10.3.50.108
+revproxy-a1              IN     A    10.3.50.109
+ldap-a2                  IN     A    10.3.50.111
