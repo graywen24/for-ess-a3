@@ -3,18 +3,21 @@
 //
 // local zones - our domains
 //
-zone "48.1.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.1.48.0"; };
+zone "50.3.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.cde.10.3.50.0"; };
 zone "cde.1nc"                  { type master; file "/etc/bind/zones/db.cde.1nc"; };
 
-zone "48.2.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.2.48.0"; };
-zone "nhb.1nc"                  { type master; file "/etc/bind/zones/db.nhb.1nc"; };
-
-zone "32.2.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.2.32.0"; };
-zone "ostack.nhb.1nc"           { type master; file "/etc/bind/zones/db.ostack.nhb.1nc"; };
 
 zone "48.0.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.0.48.0"; };
 zone "vstage.1nc"               { type master; file "/etc/bind/zones/db.vstage.1nc"; };
 
 zone "32.0.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.0.32.0"; };
 zone "ostack.vstage.1nc"        { type master; file "/etc/bind/zones/db.ostack.vstage.1nc"; };
+
+
+zone "50.3.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.wcc.10.3.50.0"; };
+zone "wcc.1nc"               { type master; file "/etc/bind/zones/db.wcc.1nc"; };
+
+zone "34.3.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.ostack.10.3.34.0"; };
+zone "ostack.wcc.1nc"        { type master; file "/etc/bind/zones/db.ostack.wcc.1nc"; };
+
 
