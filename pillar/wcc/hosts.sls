@@ -13,7 +13,7 @@ hosts:
     partitions: partsmall
     network:
       manage:
-        mac: B0:83:FE:DB:57:28
+        mac: 18:66:DA:60:B2:29
       ostack: {}
     roles:
       - ostack
@@ -34,12 +34,12 @@ hosts:
       - xt_TPROXY
     roles:
       - containerhost
-  ctl-a2:
+  compute-b2:
     ip4: 13
-    partitions: partbig
+    partitions: partsmall
     network:
       manage:
-        mac: 14:18:77:57:73:7C
+        mac: 18:66:DA:60:B2:29
       ostack: {}
       ha: {}
     packages:
