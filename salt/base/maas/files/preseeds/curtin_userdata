@@ -35,7 +35,7 @@ late_commands:
 {{endif}}
   00_salt: ["curtin", "in-target", "--", "apt-get", "update", "--quiet"]
   01_salt: ["curtin", "in-target", "--", "apt-get", "-y", "install", "salt-minion"]
-  02_salt: curtin in-target -- sh -c "/bin/echo -en '\n\n# point to the salt server for first time registration\n10.3.50.102 salt salt.cde.1nc\n' >> /etc/hosts"
+  02_salt: curtin in-target -- sh -c "/bin/echo -en '\n\n# point to the salt server for first time registration\n10.3.50.102  salt salt.cde.1nc\n' >> /etc/hosts"
 {{if 'partsmall' not in (node.tag_names())}}
   YY_umount: ["umount", "/dev/sda4"]
 {{endif}}
