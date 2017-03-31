@@ -4,7 +4,7 @@ defaults:
   maas:
     key: ahV7Gcnb8GNdTGSvfD:EyshSE47PvcNWHDAcx:GRTUrmLaSSzx8FjCAZVU32vZPtpfzThs
     sub: hwe-v
-    powerip: 10.0.16
+    powerip: 10.0.15.11
     powertype: ipmi
     zone: VSTAGE
   dns-servers:
