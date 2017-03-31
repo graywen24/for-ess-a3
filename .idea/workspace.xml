@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd05a85-9852-473a-838f-d133463cdc77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/cde/containers.sls" afterPath="$PROJECT_DIR$/pillar/cde/containers.sls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/cde/hosts.sls" afterPath="$PROJECT_DIR$/pillar/cde/hosts.sls" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,31 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="postgres.sls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/maas/postgres.sls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preseeds.sls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/maas/preseeds.sls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cde.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -82,11 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nodebug.sls" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nodebug.sls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/nodebug.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts.sls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pillar/cde/hosts.sls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="containers.sls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pillar/cde/containers.sls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -166,6 +164,8 @@
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf" />
+        <option value="$PROJECT_DIR$/pillar/cde/hosts.sls" />
+        <option value="$PROJECT_DIR$/pillar/cde/containers.sls" />
       </list>
     </option>
   </component>
@@ -721,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490693473051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update dhcp">
+      <created>1490936964662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490936964662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -788,7 +795,8 @@
     <MESSAGE value="update in-addr.arpa file can not have same file name" />
     <MESSAGE value="add wcc env under pillar" />
     <MESSAGE value="udate core host hardcode part" />
-    <option name="LAST_COMMIT_MESSAGE" value="udate core host hardcode part" />
+    <MESSAGE value="update dhcp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dhcp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,14 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/cde/containers.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pillar/cde/defaults.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1025,14 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/cde/hosts.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1173,14 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/debug.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1201,6 +1185,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/cde/hosts.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/cde/containers.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

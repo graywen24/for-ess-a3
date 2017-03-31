@@ -4,7 +4,7 @@ containers:
     ip4: 100
     network:
       manage:
-        gateway: 10.3.50.1
+        gateway: 10.3.48.1
     roles:
       - cde_bootstrap
       - maas
@@ -18,7 +18,7 @@ containers:
     ip4: 101
     network:
       manage:
-        gateway: 10.3.50.1
+        gateway: 10.3.48.1
     mount:
       repo:
         local: /var/storage/{0}/repos
@@ -70,7 +70,7 @@ containers:
     ip4: 107
     network:
       manage:
-        gateway: 10.3.50.1
+        gateway: 10.3.48.1
     roles:
       - smarthost
       - smtprelay
