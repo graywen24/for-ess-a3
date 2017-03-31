@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #cloud-config
 
 system_info:
