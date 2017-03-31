@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd05a85-9852-473a-838f-d133463cdc77" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata" afterPath="$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/maas/files/preseeds/enlist_userdata" afterPath="$PROJECT_DIR$/salt/base/maas/files/preseeds/enlist_userdata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,17 +24,17 @@
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dhcpd.maas.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dhcpd.maas.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="346">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="dhcpd.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="346">
               <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding />
             </state>
@@ -55,6 +55,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wcc.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="90-dhcplog.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/90-dhcplog.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,14 +93,14 @@
       <file leaf-file-name="curtin_userdata" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="37" column="120" lean-forward="false" selection-start-line="37" selection-start-column="120" selection-end-line="37" selection-end-column="120" />
+            <state relative-caret-position="334">
+              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enlist" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enlist" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/enlist">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -94,17 +114,7 @@
         <entry file="file://$PROJECT_DIR$/salt/base/repo/files/maas/partit.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
-              <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dhcpd-interfaces" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/maas/files/dhcpd-interfaces">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="121" column="7" lean-forward="false" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -152,12 +162,13 @@
         <option value="$PROJECT_DIR$/pillar/vstage/defaults.sls" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
-        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf" />
         <option value="$PROJECT_DIR$/pillar/cde/hosts.sls" />
         <option value="$PROJECT_DIR$/pillar/cde/containers.sls" />
-        <option value="$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata" />
         <option value="$PROJECT_DIR$/salt/base/maas/files/preseeds/enlist_userdata" />
+        <option value="$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata" />
+        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" />
+        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
       </list>
     </option>
   </component>
@@ -780,6 +791,11 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ToolWindowSalesforce.ShowToolbar" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
@@ -989,7 +1005,21 @@
       <option name="project" value="LOCAL" />
       <updated>1490946147293</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update salt hardcode ip">
+      <created>1490950792678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490950792678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update salt hardcode ip">
+      <created>1490953244883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490953244883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1058,21 +1088,14 @@
     <MESSAGE value="udate core host hardcode part" />
     <MESSAGE value="update dhcp" />
     <MESSAGE value="update ess-a4 mac address" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ess-a4 mac address" />
+    <MESSAGE value="update salt hardcode ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="update salt hardcode ip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/salt/base/core/files/resolv.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/core/resolver.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1323,14 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/90-dhcplog.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/debug.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1398,7 +1413,7 @@
     <entry file="file://$PROJECT_DIR$/salt/base/maas/files/dhcpd-interfaces">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1406,31 +1421,7 @@
     <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1438,7 +1429,7 @@
     <entry file="file://$PROJECT_DIR$/salt/base/repo/files/maas/partit.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
-          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <caret line="121" column="7" lean-forward="false" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1447,14 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="37" column="120" lean-forward="false" selection-start-line="37" selection-start-column="120" selection-end-line="37" selection-end-column="120" />
           <folding />
         </state>
       </provider>
@@ -1471,6 +1454,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/90-dhcplog.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding />
         </state>
       </provider>
