@@ -3,8 +3,8 @@
 # set minimal hosts
 
 repo="\n\n### ALCHEMY\n\
-10.3.50.10 salt salt.cde.1nc\n\
-10.3.50.10 repo.cde.1nc\n\
+10.3.50.101 salt salt.cde.1nc\n\
+10.3.50.102 repo.cde.1nc\n\
 ### ALCHEMY\n"
 grep -q repo.cde.1nc /etc/hosts || echo -e $repo >> /etc/hosts
 
