@@ -51,7 +51,7 @@ hosts:
       - xt_TPROXY
     roles:
       - containerhost
-  db-a1:
+  compute-b1:
     ip4: 14
     partitions: partbig
     network:

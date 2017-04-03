@@ -1,4 +1,4 @@
 
 # point to the salt server for first time registration
-10.1.48.101 repo repo.cde.1nc
-10.1.48.102 salt salt.cde.1nc
+10.3.50.101 repo repo.cde.1nc
+10.3.50.102 salt salt.cde.1nc

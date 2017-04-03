@@ -1,15 +1,14 @@
 defaults:
-  env: vstage.1nc
-  envo: ostack.vstage.1nc
+  env: wcc.1nc
+  envo: ostack.wcc.1nc
   maas:
-    key: ahV7Gcnb8GNdTGSvfD:EyshSE47PvcNWHDAcx:GRTUrmLaSSzx8FjCAZVU32vZPtpfzThs
+    key: qMTcMs7A67FqmneSSt:XH4ucxAxBDALkf6x5x:sR7RQQYb5BMfKHcPqSEztc89rNPPahRE
     sub: hwe-v
-    powerip: 10.0.16
+    powerip: 10.3.18
     powertype: ipmi
-    zone: VSTAGE
+    zone: WCC
   dns-servers:
-    - 10.1.48.103
-    - 10.1.48.104
+    - 10.3.50.103
   ntp-servers:
     type: peer
     interfaces:
@@ -17,20 +16,20 @@ defaults:
         main: br-mgmt
         fallback: eth2
     internal:
-      ntp1.cde.1nc: 10.1.48.10
-      ntp2.cde.1nc: 10.1.48.11
+      ntp1.cde.1nc: 10.3.50.10
+      ntp2.cde.1nc: 10.3.50.11
   hosts:
     network:
       ostack:
-         domain: ostack.vstage.1nc
-         ip4net: 10.0.32.{0}/24
+         domain: ostack.wcc.1nc
+         ip4net: 10.3.34.{0}/24
       manage:
-         domain: vstage.1nc
-         ip4net: 10.0.48.{0}/24
-         postup: route add -net 10.1.48.0/20 gw 10.0.48.1
-         gateway: 10.0.48.1
+         domain: wcc.1nc
+         ip4net: 10.3.48.{0}/20
+         postup: route add -net 10.3.48.0/20 gw 10.3.48.1
+         gateway: 10.3.48.1
       storage:
-         domain: store.vstage.1nc
+         domain: store.wcc.1nc
          ip4net: 10.0.64.{0}/24
          type: bridge
          name: eth2
@@ -38,7 +37,7 @@ defaults:
          vpref: vst
          phys: eth3
       ha:
-        domain: ha.vstage.1nc
+        domain: ha.wcc.1nc
         ip4net: 192.168.100.{0}/24
   containers:
     common:
