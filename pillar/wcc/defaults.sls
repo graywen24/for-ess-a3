@@ -9,6 +9,7 @@ defaults:
     zone: WCC
   dns-servers:
     - 10.3.50.103
+    - 10.3.50.104
   ntp-servers:
     type: peer
     interfaces:
