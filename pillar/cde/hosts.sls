@@ -10,6 +10,7 @@ hosts:
       - containerhost
       - ntp
   ess-a4:
+    no_maas: True
     ip4: 11
     partitions: partbig
     network:

@@ -5,15 +5,7 @@ base:
     - ldap
     - system
     - saltmine
-bbox:
-  '*.cde.1nc and G@workspace:bbox':
-    - match: compound
-    - defaults_cde
-  '*.nhb.1nc and G@workspace:bbox':
-    - match: compound
-    - defaults_nhb
-    - hosts
-    - containers
+
 cde:
   '*.cde.1nc and not G@workspace:bbox':
     - match: compound
