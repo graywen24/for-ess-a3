@@ -17,14 +17,14 @@ hosts:
       ostack: {}
     roles:
       - ostack
-  ctl-a1:
+  storage-a1:
     ip4: 12
     partitions: partbig
     network:
       manage:
-        mac: 14:18:77:57:70:D2
+        mac: 18:66:DA:60:B1:C9
       ostack: {}
-      ha: {}
+      storage: {}
     packages:
       - vlan
     modules:
@@ -33,7 +33,7 @@ hosts:
       - ip_tables
       - xt_TPROXY
     roles:
-      - containerhost
+      - ostack
   compute-b2:
     ip4: 13
     partitions: partsmall
@@ -78,7 +78,7 @@ hosts:
       ostack: {}
     roles:
       - containerhost
-  storage-a1:
+  storage-test:
     ip4: 17
     partitions: partsmall
     network:

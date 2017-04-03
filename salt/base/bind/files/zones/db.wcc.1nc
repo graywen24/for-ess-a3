@@ -16,3 +16,4 @@ $TTL	604800
 
 compute-b1           IN     A    10.3.50.14
 compute-b2            IN     A    10.3.50.13
+storage-a1            IN     A    10.3.50.12

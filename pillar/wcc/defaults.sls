@@ -30,7 +30,7 @@ defaults:
          gateway: 10.3.48.1
       storage:
          domain: store.wcc.1nc
-         ip4net: 10.0.64.{0}/24
+         ip4net: 10.3.65.{0}/20
          type: bridge
          name: eth2
          link: br-store

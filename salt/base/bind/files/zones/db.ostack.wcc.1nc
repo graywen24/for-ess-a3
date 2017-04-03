@@ -17,3 +17,4 @@ dns-a2               IN     A    10.3.50.119
 
 compute-b1        IN   A   10.3.34.14
 compute-b2        IN   A   10.3.34.13
+storage-a1        IN   A   10.3.34.12

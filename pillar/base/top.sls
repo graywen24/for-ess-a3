@@ -57,4 +57,15 @@ vstage:
   'roles:cdostmp':
     - match: grain
     - cdos
-
+wcc:
+  '*.wcc.1nc and not G@workspace:bbox':
+    - match: compound
+    - defaults
+    - hosts
+    - containers
+  'roles:cdos':
+    - match: grain
+    - cdos
+  'roles:cdostmp':
+    - match: grain
+    - cdos

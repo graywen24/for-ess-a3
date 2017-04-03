@@ -14,11 +14,11 @@ ldap:
     crypt: e1NTSEF9bU03cHF2QU1LcFVlZUx6RjFRM1ViUXBkMDdFWVRVMCs=
   servers:
     ldap-a1.cde.1nc:
-      ip: 10.1.48.108
+      ip: 10.3.50.108
       role: master
       short: ldap-a1
     ldap-a2.cde.1nc:
-      ip: 10.1.48.111
+      ip: 10.3.50.111
       role: slave
       short: ldap-a2
   len:
