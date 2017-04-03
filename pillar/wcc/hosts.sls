@@ -39,7 +39,7 @@ hosts:
     partitions: partsmall
     network:
       manage:
-        mac: 18:66:DA:60:B2:29
+        mac: 14:18:77:57:70:D1
       ostack: {}
       ha: {}
     packages:
@@ -53,10 +53,10 @@ hosts:
       - containerhost
   compute-b1:
     ip4: 14
-    partitions: partbig
+    partitions: partsmall
     network:
       manage:
-        mac: B0:83:FE:DD:98:72
+        mac: 18:66:DA:60:B2:29
       ostack: {}
     roles:
       - containerhost
