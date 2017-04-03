@@ -19,12 +19,3 @@ hosts:
     roles:
       - containerhost
       - ntp
-  storage-a1:
-    ip4: 12
-    partitions: partsmall
-    network:
-      manage:
-        mac: 18:66:DA:60:B1:C9
-    roles:
-      - containerhost
-      - ostack
