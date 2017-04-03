@@ -8,7 +8,7 @@ defaults:
     email: cas-system@1-net.com.sg
     key: ahV7Gcnb8GNdTGSvfD:EyshSE47PvcNWHDAcx:GRTUrmLaSSzx8FjCAZVU32vZPtpfzThs
     sub: hwe-v
-    powerip: 10.1.16
+    powerip: 10.3.18
     powertype: ipmi
     zone: CDE
   dns-servers:
