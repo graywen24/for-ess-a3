@@ -36,7 +36,7 @@ defaults:
       manage:
          domain: cde.1nc
          ip4net: 10.3.50.{0}/20
-         gateway: 10.3.50.1
+         gateway: 10.3.48.1
     roles:
       - metal
   containers:
