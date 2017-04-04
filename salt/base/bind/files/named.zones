@@ -14,7 +14,7 @@ zone "32.0.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.0.32.
 zone "ostack.vstage.1nc"        { type master; file "/etc/bind/zones/db.ostack.vstage.1nc"; };
 
 
-zone "50.3.10.wcc.in-addr.arpa"     { type master; file "/etc/bind/zones/db.wcc.10.3.50.0"; };
+zone "48.3.10.wcc.in-addr.arpa"     { type master; file "/etc/bind/zones/db.wcc.10.3.48.0"; };
 zone "wcc.1nc"               { type master; file "/etc/bind/zones/db.wcc.1nc"; };
 
 zone "34.3.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.ostack.10.3.34.0"; };
