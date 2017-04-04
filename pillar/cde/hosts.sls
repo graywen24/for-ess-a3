@@ -1,5 +1,6 @@
 hosts:
   ess-a3:
+    no_maas: True
     ip4: 10
     partitions: partbig
     no_maas: True
@@ -9,10 +10,10 @@ hosts:
     roles:
       - containerhost
       - ntp
-  ess-a4:
+  neutron-a1:
     #no_maas: True
     ip4: 11
-    partitions: partbig
+    partitions: partsmall
     network:
       manage:
         mac: 14:18:77:57:16:1D

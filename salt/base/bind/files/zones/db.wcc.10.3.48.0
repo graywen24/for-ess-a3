@@ -15,6 +15,3 @@ $TTL	604800
 
 
 
-14            IN   PTR    compute-b1.wcc.1nc.
-13             IN   PTR    compute-b2.wcc.1nc.
-12             IN   PTR    storage-a1.wcc.1nc.

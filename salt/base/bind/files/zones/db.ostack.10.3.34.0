@@ -12,6 +12,5 @@ $TTL	604800
 @	   IN NS dns-a1.cde.1nc.
 @	   IN NS dns-a2.cde.1nc.
 
-14            IN   PTR    compute-b1.ostack.wcc.1nc.
-13             IN   PTR    compute-b2.ostack.wcc.1nc.
-12             IN   PTR    storage-a1.ostack.wcc.1nc.
+
+13             IN   PTR    neutron-a1.ostack.wcc.1nc.
