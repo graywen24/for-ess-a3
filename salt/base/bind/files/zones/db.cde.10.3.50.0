@@ -14,6 +14,7 @@ $TTL	604800
 
 10                      IN   PTR     ess-a3.cde.1nc.
 11                      IN   PTR     ess-a4.cde.1nc.
+12                      IN   PTR     storage-a1.wcc.1nc.
 100                     IN   PTR     maas-a1.cde.1nc.
 101                     IN   PTR     repo-a1.cde.1nc.
 102                     IN   PTR     saltmaster-a1.cde.1nc.
