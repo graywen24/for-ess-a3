@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd05a85-9852-473a-838f-d133463cdc77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.10.3.50.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.10.3.50.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.10.3.34.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.10.3.34.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.wcc.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.wcc.1nc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.50.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.50.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +23,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dhcpd.maas.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dhcpd.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-223">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wcc.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="103" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vstage.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -37,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dhcpd.maas.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
+      <file leaf-file-name="cde.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,17 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.wcc.1nc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.cde.1nc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.cde.1nc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
@@ -97,31 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.wcc.10.3.50.0" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.50.0">
+      <file leaf-file-name="defaults.sls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pillar/cde/defaults.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="named.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/bind/files/named.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="named.zones" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/salt/base/bind/files/named.zones">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="437">
+              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -161,13 +157,11 @@
         <option value="$PROJECT_DIR$/pillar/vstage/hosts.sls" />
         <option value="$PROJECT_DIR$/pillar/vstage/defaults.sls" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf" />
-        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf" />
         <option value="$PROJECT_DIR$/pillar/cde/containers.sls" />
         <option value="$PROJECT_DIR$/salt/base/maas/files/preseeds/enlist_userdata" />
         <option value="$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata" />
         <option value="$PROJECT_DIR$/salt/base/repo/files/maas/hosts.addons" />
-        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
         <option value="$PROJECT_DIR$/salt/base/container/files/bootstrap/install_salt.sh" />
         <option value="$PROJECT_DIR$/pillar/cde/smarthost.sls" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" />
@@ -185,6 +179,8 @@
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.50.0" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/named.zones" />
+        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
+        <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
       </list>
     </option>
   </component>
@@ -346,6 +342,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srv-essa3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srv-essa3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhcpd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhcpd.d" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,7 +879,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491224856344</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add storage-a1 dns to cde env">
+      <created>1491276390426</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1491276390426</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -937,37 +970,14 @@
     <MESSAGE value="update wcc host.sls" />
     <MESSAGE value="remove storage-a1 from cde" />
     <MESSAGE value="update cde env" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cde env" />
+    <MESSAGE value="add storage-a1 dns to cde env" />
+    <option name="LAST_COMMIT_MESSAGE" value="add storage-a1 dns to cde env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/salt/base/maas/loopdevice.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/maas/files/db/dbconfig.maas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/maas/files/preseeds/curtin_userdata">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
@@ -1203,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/cde/defaults.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pillar/base/saltmine.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1275,22 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/bind/files/named.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1351,6 +1337,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/cde/defaults.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="103" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/vstage.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
