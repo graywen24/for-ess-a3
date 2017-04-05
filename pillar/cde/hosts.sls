@@ -23,7 +23,7 @@ hosts:
     partitions: partsmall
     network:
       manage:
-        mac: 18:66:DA:60:B1:C9
+        mac: 18:66:da:60:b1:c9
     roles:
       - containerhost
   neutron-a1:

@@ -14,8 +14,8 @@ $TTL	604800
 
 10                      IN   PTR     ess-a3.cde.1nc.
 11                      IN   PTR     ess-a4.cde.1nc.
-12                      IN   PTR     storage-a1.cde.1nc
-13                      IN   PTR     neutron-a1.cde.1nc
+12                      IN   PTR     storage-a1.cde.1nc.
+13                      IN   PTR     neutron-a1.cde.1nc.
 
 
 
