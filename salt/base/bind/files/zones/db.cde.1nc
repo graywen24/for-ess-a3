@@ -18,7 +18,11 @@ dns-a2                       IN   A     10.3.50.104
 
 ess-a3                   IN     A    10.3.50.10
 ess-a4                   IN     A    10.3.50.11
+storage-a1               IN     A    10.3.50.12
 neutron-a1               IN     A    10.3.50.13
+
+
+
 
 maas-a1                  IN     A    10.3.50.100
 repo-a1                  IN     A    10.3.50.101
