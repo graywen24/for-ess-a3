@@ -7,12 +7,6 @@ zone "50.3.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.cde.10.3
 zone "cde.1nc"                  { type master; file "/etc/bind/zones/db.cde.1nc"; };
 
 
-zone "48.0.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.0.48.0"; };
-zone "vstage.1nc"               { type master; file "/etc/bind/zones/db.vstage.1nc"; };
-
-zone "32.0.10.in-addr.arpa"     { type master; file "/etc/bind/zones/db.10.0.32.0"; };
-zone "ostack.vstage.1nc"        { type master; file "/etc/bind/zones/db.ostack.vstage.1nc"; };
-
 
 zone "48.3.10.wcc.in-addr.arpa"     { type master; file "/etc/bind/zones/db.wcc.10.3.48.0"; };
 zone "wcc.1nc"               { type master; file "/etc/bind/zones/db.wcc.1nc"; };

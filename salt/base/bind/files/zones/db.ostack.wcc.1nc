@@ -16,4 +16,5 @@ dns-a1               IN     A    10.3.50.118
 dns-a2               IN     A    10.3.50.119
 
 
-neutron-a1        IN   A   10.3.34.13
+storage-a1               IN     A    10.3.34.12
+neutron-a1               IN     A    10.3.34.13

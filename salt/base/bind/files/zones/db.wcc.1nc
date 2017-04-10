@@ -15,4 +15,5 @@ $TTL	604800
 
 
 
-
+storage-a1               IN     A    10.3.48.12
+neutron-a1               IN     A    10.3.48.13

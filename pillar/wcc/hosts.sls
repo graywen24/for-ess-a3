@@ -16,3 +16,20 @@ hosts:
       - xt_TPROXY
     roles:
       - ostack
+  neutron-a1:
+    ip4: 13
+    partitions: partsmall
+    network:
+      manage:
+        mac: 14:18:77:57:16:1D
+      ostack: {}
+      storage: {}
+    packages:
+      - vlan
+    modules:
+      - openvswitch
+      - 8021q
+      - ip_tables
+      - xt_TPROXY
+    roles:
+      - ostack
