@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd05a85-9852-473a-838f-d133463cdc77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/cde/hosts.sls" afterPath="$PROJECT_DIR$/pillar/cde/hosts.sls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/wcc/hosts.sls" afterPath="$PROJECT_DIR$/pillar/wcc/hosts.sls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/named.zones" afterPath="$PROJECT_DIR$/salt/base/bind/files/named.zones" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.10.3.50.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.10.3.50.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.10.3.34.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.10.3.34.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.wcc.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.wcc.1nc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" afterPath="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" afterPath="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.wcc.10.3.48.0" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.wcc.10.3.48.0" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -83,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dhcpd.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dhcpd.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -183,7 +172,6 @@
         <option value="$PROJECT_DIR$/pillar/cde/hosts.sls" />
         <option value="$PROJECT_DIR$/pillar/wcc/hosts.sls" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.10.3.50.0" />
-        <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.cde.1nc" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.1nc" />
         <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.ostack.wcc.1nc" />
@@ -192,6 +180,7 @@
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/cde.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.d/wcc.conf" />
         <option value="$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.maas.conf" />
+        <option value="$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0" />
       </list>
     </option>
   </component>
@@ -846,7 +835,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491370203280</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="split wcc and cde env">
+      <created>1491797301348</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1491797301348</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -866,7 +862,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23047376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23047376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -909,7 +905,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update in-addr.arpa file can not have same file name" />
     <MESSAGE value="add wcc env under pillar" />
     <MESSAGE value="udate core host hardcode part" />
     <MESSAGE value="update dhcp" />
@@ -934,7 +929,8 @@
     <MESSAGE value="change wcc.10.3.48 dns file" />
     <MESSAGE value="change all to CDE for testing" />
     <MESSAGE value="fucking missing dot of dns" />
-    <option name="LAST_COMMIT_MESSAGE" value="fucking missing dot of dns" />
+    <MESSAGE value="split wcc and cde env" />
+    <option name="LAST_COMMIT_MESSAGE" value="split wcc and cde env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1250,14 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/bind/files/named.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1316,8 +1304,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/salt/base/dhcpd/files/dhcpd.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/base/bind/files/zones/db.wcc.10.3.48.0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
       </provider>
